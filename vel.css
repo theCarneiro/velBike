@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body,html{
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    /* zoom: 200%; */
+    font-family: 'VT323', monospace;
+    /* font-size: 150%; */
+}
+
+.frame{
+    border: 1px solid black;
+}
+
+#mostrador{
+    width: 200px;
+    height: 200px;
+    background-image: url('./bg.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    display: flex;
+    padding-top: 2%;
+}
+
+#velocidade{
+    font-size: 500%;
+    line-height: 70%;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+#topSpeed{
+    padding-top: 10%;
+}
+
+#sistema,#topSpeed{
+    line-height: 70%;
+    font-size: 250%;
+    /* padding-top: 10%; */
+    color: black;
+}  
