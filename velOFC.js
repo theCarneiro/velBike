@@ -3,13 +3,12 @@ const velocidade = document.querySelector("#velocidade")
 
 let lat = document.querySelector("#lat");
 let lon = document.querySelector("#lon");
- 
+
 let topSpeed = document.querySelector("#topSpeed"); 
 let varSpeed = null;
 
 let watchId = null;
 const option= {enableHighAccuracy:true}
-
 
 velocimetro.addEventListener("click",()=>{
     if (!watchId){
